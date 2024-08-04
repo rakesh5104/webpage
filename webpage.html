@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            top: 0;
+            background-color: white;
+            scrollbar-width: none;
+        }
+        #header {
+            width: 100%;
+            background-color: white;
+            padding: 0.5%;
+            position: fixed;
+            z-index: 2;
+        }
+        .gap ,.gap2, .gap3 {
+            margin-left: 2%;
+        }
+        .el1,.nav {
+            display: inline-block;
+            margin-top: 2%;
+        }
+       #text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white
+        
+
+       }
+       #br{
+        background-color: black;
+        color: white;
+        padding: 10px 5px 10px 3px;
+       }
+       #head {
+       margin-top: 10px;
+       display: inline-block;
+       }
+       .image{
+        flex-direction: row;
+        margin-left: 30px;
+       }
+       .images2{
+        margin-top: 10px;
+        margin-left: 30px;
+       }
+       #home:hover {
+        background-color: salmon;
+        padding: 2%;
+       }
+       a {
+        text-decoration: none;
+        color: black;
+       }
+       #nav {
+        
+        margin-left: 80%;
+        justify-content: center;
+
+       }
+       .gap:hover {
+        background-color: brown;
+        padding: 4%;
+       }
+       .gap2:hover {
+        background-color: brown;
+        padding: 4%;
+       }.gap3:hover {
+        background-color: brown;
+        padding: 4%;
+       }
+       #home {
+        margin-left: 5%;
+       }
+       #one {
+        position: absolute;
+        left: 3%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+       }
+       #two{
+        position: absolute;
+        left: 27%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+        text-transform: uppercase;
+       }
+       #three{
+        position: absolute;
+        right: 40%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+        text-transform: uppercase;
+       }
+       #four{
+        position: absolute;
+        right: 15%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+        text-transform: uppercase;
+       }
+       #five{
+        position: absolute;
+        left: 3%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+       }
+       #six{
+        position: absolute;
+        left: 27%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+        text-transform: uppercase;
+       }
+       #seven{
+        position: absolute;
+        right: 40%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+        text-transform: uppercase;
+
+       }
+       #eight{
+        position: absolute;
+        right: 15%;
+        margin-top: 1%;
+        background-color: black;
+        color: white;
+        padding: 0 1% 0;
+        text-transform: uppercase;
+
+       }
+       img {
+        margin-left: 0.5%;
+       }
+       #contact{
+        border: 1px solid black;
+        text-align: center;
+        width: 20%;
+        padding-top: 3%;
+        margin-left: 30%;
+        margin-bottom: 10%;
+       }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div id="header">
+
+            <header>
+                <a href="#head" id="home">BR ARCHITECTS</a>
+            </header>
+            <nav id="nav">
+                <a href="#projects" class="gap">PROJECTS</a>
+                <a href="#about" class="gap2">ABOUT</a>
+                <a href="#contact" class="gap3">CONTACT</a>
+            </nav>
+        </div>
+        <div id="head">
+            <img src="images/architect.jpg" width="100%">
+            <p id="text"><span id="br">BR</span> ARCHITECTS </p>
+        </div>
+        <div id="projects">    
+            <h3>PROJECTS</h3>
+        </div>
+            <div class="image">
+                <img src="images/house2.jpg" width="24%">
+                <span id="one">SUMMER HOUSE</span>
+                <img src="images/house3.jpg"width="24%">
+                <span id="two">Brick House</span>
+                <img src="images/house4.jpg"width="24%">
+                <span id="three">Renovated</span>
+                <img src="images/house5.jpg"width="24%">
+                <span id="four">Barn House</span>
+            </div>
+            <div class="images2">
+                <img src="images/h7.jpg" width="24%">
+                <span id="five">SUMMER HOUSE</span>
+                <img src="images/h8.jpg" width="24%">
+                <span id="six">Brick House</span>
+                <img src="images/h9.jpg" width="24%">
+                <span id="seven">Renovated</span>
+                <img src="images/h10.jpg" width="24%">
+                <span id="eight">Barn House</span>
+            </div>
+            <h3>ABOUT</h3>
+            <div id="about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque commodi reprehenderit tenetur? Fugit alias, explicabo, tenetur quae id aliquid at nihil doloremque adipisci nostrum molestiae iure dignissimos doloribus consectetur!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita itaque labore perferendis cupiditate, repellendus sed at ipsa harum. Illum blanditiis id voluptate nemo sint consequatur exercitationem dolore esse hic fugiat!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptates, cupiditate accusamus ut est iure totam eligendi quod quis ab corporis maxime facere dolorum molestiae eos assumenda aspernatur reiciendis odio!</p>
+
+            </div>
+            <h3> CONTACT</h3>
+            <div id="contact">
+                <form>
+                    <label for="number">MOBILE NO :</label>
+                    <input type="number" id="number" placeholder="Enter mobile number"><br><br>
+                    <label for="mail">GMAIL :</label>
+                    <input type="email" id="mail" placeholder="Enter your gmail"><br><br>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+    </div>
+    </body>
+    </html>
